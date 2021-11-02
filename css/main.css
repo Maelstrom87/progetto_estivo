@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+h1{ 
+    font-family: 'Montserrat';
+    text-align: center;
+    margin-top: 0;
+}
+
+.s1{
+    background:url('../assets/images/beach2.jpg');
+    background-size: cover;
+    position: relative;
+}
+.s2{
+    background:url('../assets/images/city.jpg');
+    background-size: cover !important;
+    position: relative !important;
+}
+.s3{
+    background:url('../assets/images/beach.jpg');
+    background-size: cover !important;
+    position: relative;
+}
+.shadowToBot{
+    position: absolute;
+    bottom: 0%;
+    height: 100px;
+    width: 100%;
+    left: 0;
+    z-index: 1;
+    background: linear-gradient(to top,#151515,transparent); 
+    
+}
+.shadowToTop{
+    position: absolute;
+    top:0;
+    height: 200px;
+    width: 100%;
+    left: 0;
+    z-index: 1;
+    background: linear-gradient(to bottom,#ffffff,transparent); 
+    
+}
+#fp-nav ul li a span, .fp-slidesNav ul li a span{
+    background-color: whitesmoke;
+    border: #151515 solid 0.5px;
+}
+
+.fp-slidesNav.fp-bottom {
+    bottom: 35px;
+    margin-left: 50% !important;
+}

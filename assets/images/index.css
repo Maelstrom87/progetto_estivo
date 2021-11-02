@@ -1,0 +1,13 @@
+.container {
+  width: 30%;
+  margin: auto;
+  background-color: red;
+ 
+}
+
+.container .banner {
+  padding: 2rem;
+  opacity: 0.5;
+  border: 1px solid black;
+}
+/*# sourceMappingURL=main.css.map */
